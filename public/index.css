@@ -1,0 +1,68 @@
+body {
+    background-color: #00111a;
+    font-family: monospace;
+    text-align: center;
+    font-size: 2vmin;
+    color: #cceeff;
+}
+
+a {
+    color: #cceeff;
+    text-decoration: none;
+}
+
+.container {
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    transform: translate(-50%, -50%);
+    background-color: #002233;
+    border: 1px solid #cceeff;
+    border-radius: 1.5em;
+    position: absolute;
+    padding: 1.5em;
+    left: 50%;
+    top: 50%;
+}
+
+.title {
+    color: white;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.description {
+    font-size: 0.75em;
+    opacity: 75%;
+}
+
+input,
+button {
+    background-color: #00111a;
+    border: 1px solid #cceeff;
+    font-family: monospace;
+    border-radius: 0.25em;
+    text-align: center;
+    font-size: inherit;
+    color: #cceeff;
+    margin: 0.25em;
+}
+
+input {
+    width: calc(100% - 1.5em);
+}
+
+#url {
+    background-color: #00111a;
+    white-space: nowrap;
+    padding: 0.5em;
+    margin: 0.5em;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+}
