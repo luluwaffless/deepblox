@@ -8,11 +8,12 @@
   ],
   "routes": [
     {
-      "src": "/(.*)",
-      "dest": "index.js"
+      "src": "/",
+      "dest": "/public"
     },
     {
-      "handle": "filesystem"
+      "src": "/(.*)",
+      "dest": "index.js"
     }
   ]
 }
