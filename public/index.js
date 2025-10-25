@@ -16,7 +16,7 @@ const updateUrl = () => {
     });
 });
 copy.addEventListener('click', () => {
-    navigator.clipboard.writeText(url.innerHTML).then(() => {
+    navigator.clipboard.writeText(url).then(() => {
         copy.innerHTML = 'copied!';
         setTimeout(() => copy.innerHTML = 'copy URL', 2000);
     });
